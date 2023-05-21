@@ -1,7 +1,4 @@
 export async function getListGenres() {
-
-	const res = await fetch(
-		'https://backrequiredspecialist--tintuong95.repl.co/genres/list' 
-	);
+	const res = await fetch(process.env.SERVER + '/genres/list');
 	return res.json();
 }

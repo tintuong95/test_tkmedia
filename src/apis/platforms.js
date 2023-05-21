@@ -1,6 +1,6 @@
 export async function getListPlatforms() {
 	const res = await fetch(
-		'https://backrequiredspecialist--tintuong95.repl.co/plastform/list'
+		process.env.SERVER+'/plastform/list'
 	);
 	return res.json();
 }
