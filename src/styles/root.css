@@ -1,0 +1,25 @@
+.blue-gray-100 {
+	background-color: #f1f5f9;
+}
+
+
+
+.bg-linear-gradient {
+    background:  linear-gradient(103.7deg, #D71C5D 0%, #FF9017 100%);
+}
+
+
+button.bg-linear-gradient:hover {
+    background:  linear-gradient(103.7deg, #d71c5d94 0%, #ff8f1781 100%);
+}
+
+
+.min-h-table{
+
+    min-height: 50vh;
+}
+
+.primary-color{
+    color:#D71C5D
+}
+
